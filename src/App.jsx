@@ -2,7 +2,7 @@ export default function App() {
   const skills = [
     { label: "CAD & Design", values: ["SolidWorks", "Technical Drawing (GD&T, ISO fits)"] },
     { label: "Manufacturing & Prototyping", values: ["MAG Welding", "3D Printing", "Soldering"] },
-    { label: "Programming & Robotics", values: ["MATLAB", "Simulink", "Python (Basics)","ROS 2 (Basics)"] },
+    { label: "Programming & Robotics", values: ["MATLAB", "Simulink", "Python (basic)","ROS 2 (basic)", "Git"] },
   ];
 
   const education = [
@@ -23,18 +23,18 @@ export default function App() {
     {
       title: "Sensor-integrated Deep Drawing Tool",
       text: "Designed and developed a deep drawing tool equipped with sensors and a high-speed camera as part of my bachelor thesis. The goal was to collect process data from deep drawing operations to improve simulation models. Focused on high-precision design and implemented a 3D Digital Image Correlation (3D DIC) setup for deformation analysis.",
-      tags: ["SolidWorks", "Technical Drawing", "DIC"],
+      tags: ["SolidWorks", "Sensors", "DIC"],
       image: "/images/dd4.png",
     },
     {
       title: "6-DOF Robotic Arm",
-      text: "Designed and built a 6-DOF robotic arm with a gear-driven gripper as part of a robotics student team. Focused on lightweight structural design and cost-efficient manufacturing. Developed in SolidWorks and fabricated using 3D-printed components, enabling rapid prototyping and iterative design improvements.",
+      text: "Designed a prototype 6-DOF robotic arm with a gear-driven gripper as part of a robotics student team. Focused on lightweight structural design and cost-time-efficient manufacturing. Developed in SolidWorks and fabricated using 3D-printed components, enabling rapid prototyping and iterative design improvements.",
       tags: ["SolidWorks", "Prototyping", "Robotics"],
       image: "/images/arm.png",
     },
     {
       title: "Cable Car Suspension & Gearbox Design",
-      text: "Designed a cable car suspension system and gearbox as part of a machine elements course. Performed analytical design and dimensioning, including load calculations and proper shaft-bearing configuration. Created detailed technical drawings in accordance with ISO standards and GD&T.",
+      text: "Designed a cable car suspension system and gearbox as part of a machine elements course. Performed analytical design, including load calculations and shaft–bearing layout. Created detailed technical drawings in accordance with ISO standards and GD&T.",
       tags: ["Assembly Design", "GD&T", "Load Calculations"],
       image: "/images/ME2.png",
     },
@@ -53,13 +53,13 @@ export default function App() {
     <div className="min-h-screen font-sans text-[#0f172a] tracking-[0.01em]">
       <div
         className="fixed inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/nasa14.jpg')" }}
+        style={{ backgroundImage: "url('/nasa22.jpg')" }}
       />
       <div className="fixed inset-0 bg-black/10" />
 
       <div className="relative z-10 min-h-screen lg:flex">
         <aside className="p-4 lg:sticky lg:top-0 lg:h-screen lg:w-[30rem] lg:flex-shrink-0 lg:p-6">
-          <div className="h-full rounded-[2rem] border border-white/25 bg-white/20 p-6 backdrop-blur-xl shadow-[0_8px_30px_rgba(0,0,0,0.12)]">
+          <div className="h-full rounded-[2rem] border border-white/40 bg-white/30 p-6 backdrop-blur-2xl shadow-[0_12px_50px_rgba(0,0,0,0.25)] transition-all duration-300">
             <div className="flex h-full flex-col">
               <div className="flex flex-col items-center pt-2 text-center">
                 <img
@@ -83,13 +83,17 @@ export default function App() {
                   About Me
                 </h2>
                 <p className="mt-3 text-[0.88rem] font-normal leading-[1.55] text-[#111827]/85">
-                  Mechanical Engineering student at TUM with experience in developing mechanical systems through academic projects, internships and work in a robotics student team. Skilled in CAD (SolidWorks), analytical dimensioning and mechanical design of components and assemblies. Experienced in creating technical drawings according to ISO standards and GD&T. Hands-on experience in building and iterating prototypes in the workshop. Background in MATLAB, with basic knowledge of C and C++. Currently developing skills in Python and ROS 2 to integrate mechanical systems with autonomous functionality. Strong interest in robotics and intelligent systems.
+                  Mechanical Engineering student at the Technical University of Munich with a strong interest in robotics. Motivated to tackle complex engineering challenges.
+
+                  Experienced in mechanical design, with strong skills in CAD (SolidWorks) and technical drawings according to ISO standards and GD&T. Hands-on experience building prototypes in the workshop.
+
+                  In addition, I have a background in programming, including MATLAB and Simulink, as well as basic knowledge of Python, ROS 2, and Git. I have gained practical experience through academic projects, internships, and work in a robotics student team.
                 </p>
               </div>
 
               <div className="mt-auto pt-6">
                 <a
-                  href="/CV_LJ_robominds.pdf"
+                  href="/CV_LJ_26.pdf"
                   target="_blank"
                   rel="noreferrer"
                   className="block rounded-full border border-white/20 bg-white/12 px-5 py-3 text-center text-[0.8rem] font-semibold uppercase tracking-[0.07em] text-[#111827]/85 backdrop-blur-xl transition-all duration-300 hover:scale-[1.03] hover:bg-white/25 hover:shadow-lg"
