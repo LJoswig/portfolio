@@ -2,7 +2,7 @@ export default function App() {
   const skills = [
     { label: "CAD & Design", values: ["SolidWorks", "Technical Drawing (GD&T, ISO fits)"] },
     { label: "Manufacturing & Prototyping", values: ["MAG Welding", "3D Printing", "Soldering"] },
-    { label: "Programming & Robotics", values: ["MATLAB", "Simulink", "Python (basic)","ROS 2 (basic)", "Git"] },
+    { label: "Programming & Robotics", values: ["MATLAB", "Simulink", "Python","ROS 2", "Git"] },
   ];
 
   const education = [
@@ -22,21 +22,21 @@ export default function App() {
   const projects = [
     {
       title: "Sensor-integrated Deep Drawing Tool",
-      text: "Designed and developed a deep drawing tool equipped with sensors and a high-speed camera as part of my bachelor thesis. The goal was to collect process data from deep drawing operations to improve simulation models. Focused on high-precision design and implemented a 3D Digital Image Correlation (3D DIC) setup for deformation analysis.",
+      text: "Designed a deep drawing tool equipped with sensors and a high-speed camera as part of my bachelor thesis. The goal was to collect process data from deep drawing operations to improve simulation models. Focused on high-precision design and implemented a 3D Digital Image Correlation (3D DIC) setup for deformation analysis.",
       tags: ["SolidWorks", "Sensors", "DIC"],
-      image: "/images/dd4.png",
+      image: "/images/dd.png",
     },
     {
       title: "6-DOF Robotic Arm",
-      text: "Designed a prototype 6-DOF robotic arm with a gear-driven gripper as part of a robotics student team. Focused on lightweight structural design and cost-time-efficient manufacturing. Developed in SolidWorks and fabricated using 3D-printed components, enabling rapid prototyping and iterative design improvements.",
-      tags: ["SolidWorks", "Prototyping", "Robotics"],
-      image: "/images/arm.png",
+      text: "Designed a prototype 6-DOF robotic arm with a gear-driven gripper as part of a robotics student team. Focused on lightweight structural design and cost-time-efficient manufacturing. Designed in SolidWorks and 3D printed parts using Prusa FDM printer.",
+      tags: ["SolidWorks", "Prototyping", "3D Printing"],
+      image: "/images/arm2.png",
     },
     {
       title: "Cable Car Suspension & Gearbox Design",
       text: "Designed a cable car suspension system and gearbox as part of a machine elements course. Performed analytical design, including load calculations and shaft–bearing layout. Created detailed technical drawings in accordance with ISO standards and GD&T.",
       tags: ["Assembly Design", "GD&T", "Load Calculations"],
-      image: "/images/ME2.png",
+      image: "/images/ME3.png",
     },
   ];
 
@@ -83,11 +83,7 @@ export default function App() {
                   About Me
                 </h2>
                 <p className="mt-3 text-[0.88rem] font-normal leading-[1.55] text-[#111827]/85">
-                  Mechanical Engineering student at the Technical University of Munich with a strong interest in robotics. Motivated to tackle complex engineering challenges.
-
-                  Experienced in mechanical design, with strong skills in CAD (SolidWorks) and technical drawings according to ISO standards and GD&T. Hands-on experience building prototypes in the workshop.
-
-                  In addition, I have a background in programming, including MATLAB and Simulink, as well as basic knowledge of Python, ROS 2, and Git. I have gained practical experience through academic projects, internships, and work in a robotics student team.
+                  Aspiring mechanical engineer with a strong interest in robotics. Skilled in mechanical design, CAD (SolidWorks), and ISO-compliant technical drawings with GD&T. Hands-on experience in building prototypes in workshop environments. Proficient in MATLAB and Simulink, with foundational knowledge of Python, ROS 2, and Git. Former track athlete who has learned that resilience, consistent practice, and strong teamwork lead to meaningful results.
                 </p>
               </div>
 
