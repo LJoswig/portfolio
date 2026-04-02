@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 export default function App() {
   const skills = [
     { label: "CAD & Design", values: ["SolidWorks", "Technical Drawing (GD&T, ISO fits)"] },
@@ -259,6 +260,7 @@ export default function App() {
           </div>
         </main>
       </div>
+      <Analytics />
     </div>
   );
 }
