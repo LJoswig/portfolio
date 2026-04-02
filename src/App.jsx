@@ -23,7 +23,7 @@ export default function App() {
   const projects = [
     {
       title: "Sensor-integrated Deep Drawing Tool",
-      text: "Designed a deep drawing tool equipped with sensors and a high-speed camera as part of my bachelor thesis. The goal was to collect process data from deep drawing operations to improve simulation models. Focused on high-precision design and implemented a 3D Digital Image Correlation (3D DIC) setup for deformation analysis.",
+      text: "Designed a sensor-integrated deep drawing tool with a high-speed camera for data acquisition to improve simulation models. Focused on high-precision design, validated DIC processing, and programmed a MATLAB script for automated process design.",
       tags: ["SolidWorks", "Sensors", "DIC"],
       image: "/images/dd.png",
     },
@@ -35,7 +35,7 @@ export default function App() {
     },
     {
       title: "Cable Car Suspension & Gearbox Design",
-      text: "Designed a cable car suspension system and gearbox as part of a machine elements course. Performed analytical design, including load calculations and shaft–bearing layout. Created detailed technical drawings in accordance with ISO standards and GD&T.",
+      text: "Designed a cable car suspension system and gearbox as part of a machine elements course. Performed analytical design, including load calculations and shaft-bearing layout. Created detailed technical drawings in accordance with ISO standards and GD&T.",
       tags: ["Assembly Design", "GD&T", "Load Calculations"],
       image: "/images/ME3.png",
     },
