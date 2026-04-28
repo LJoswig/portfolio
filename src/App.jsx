@@ -1,8 +1,8 @@
 import { Analytics } from "@vercel/analytics/react";
 export default function App() {
   const skills = [
-    { label: "CAD & Design", values: ["SolidWorks", "Technical Drawing (GD&T, ISO fits)"] },
-    { label: "Manufacturing & Prototyping", values: ["MAG Welding", "3D Printing", "Soldering"] },
+    { label: "CAD & Design", values: ["SolidWorks", "Technical Drawing (ISO, GD&T)"] },
+    { label: "Manufacturing & Prototyping", values: ["3D Printing", "MAG Welding", "Soldering"] },
     { label: "Programming & Robotics", values: ["MATLAB", "Simulink", "Python","ROS 2", "Git"] },
   ];
 
@@ -15,28 +15,29 @@ export default function App() {
   ];
 
   const experience = [
-    { title: "Tutor for MATLAB", org: "TUM", date: "OCT 2025 - Present" },
+    { title: "Research Assistant", org: "TUM utg", date: "OCT 2025 - APR 2026" },
+    { title: "Tutor for MATLAB", org: "TUM", date: "OCT 2025 - MAR 2026" },
     { title: "Mechanical Engineering Intern", org: "Eberhardt Manufacturing", date: "APR 2025 - AUG 2025" },
-    { title: "Mechanical Subteam Lead", org: "TUM WARR (Robotics Student Team)", date: "SEP 2023 - NOV 2024" },
+    { title: "Mechanical Subteam Lead", org: "TUM Space Robotics Student Team", date: "SEP 2023 - SEP 2024" },
   ];
 
   const projects = [
     {
-      title: "Sensor-integrated Deep Drawing Tool",
-      text: "Designed a sensor-integrated deep drawing tool with a high-speed camera for data acquisition to improve simulation models. Focused on high-precision design, validated DIC processing, and programmed a MATLAB script for automated process design.",
-      tags: ["SolidWorks", "Sensors", "DIC"],
+      title: "Deep Drawing Tool - Research Assistant",
+      text: "Designed a sensor-integrated deep drawing tool with a high-speed camera for data acquisition to improve FEM simulation models. Focused on high-precision design, improved reliability of DIC image processing, and programmed a MATLAB script for automated process design.",
+      tags: ["SolidWorks", "Sensors", "MATLAB"],
       image: "/images/dd.png",
     },
     {
-      title: "6-DOF Robotic Arm",
-      text: "Designed a prototype 6-DOF robotic arm with a gear-driven gripper as part of a robotics student team. Focused on lightweight structural design and cost-time-efficient manufacturing. Designed in SolidWorks and 3D printed parts using Prusa FDM printer.",
-      tags: ["SolidWorks", "Prototyping", "3D Printing"],
+      title: "Robotic Arm - Student Team",
+      text: "Designed a 6-DOF prototype robotic arm with a gear-driven gripper. Focused on lightweight, cost-time-efficient design. Designed in SolidWorks and 3D printed parts using Prusa FDM printer. Controlled the robotic arm via web-based laptop interface, communicating wirelessly with an onboard Raspberry Pi.",
+      tags: ["Prototyping", "Raspberry Pi", "ROS 2"],
       image: "/images/arm2.png",
     },
     {
-      title: "Cable Car Suspension & Gearbox Design",
-      text: "Designed a cable car suspension system and gearbox as part of a machine elements course. Performed analytical design, including load calculations and shaft-bearing layout. Created detailed technical drawings in accordance with ISO standards and GD&T.",
-      tags: ["Assembly Design", "GD&T", "Load Calculations"],
+      title: "Gear and Assembly Design - Student Project",
+      text: "Designed a gearbox and a cable car suspension system. Selected materials and manufacturing processes, performed load calculations, determined appropriate bearings and lubrication methods. Created precise, ISO-compliant technical drawings with GD&T.",
+      tags: ["Technical Drawing", "GD&T","Load Calculations"],
       image: "/images/ME3.png",
     },
   ];
@@ -72,7 +73,7 @@ export default function App() {
                   Lisa Joswig
                 </h1>
                 <p className="mt-1 text-[0.72rem] font-medium uppercase tracking-[0.06em] text-[#111827]/70 leading-none">
-                  Mechanical Engineering Student
+                  TUM Engineering Student
                 </p>
                 <p className="mt-4 text-[0.78rem] font-medium text-[#111827]/80 leading-none">
                   Munich, Germany
@@ -84,13 +85,13 @@ export default function App() {
                   About Me
                 </h2>
                 <p className="mt-3 text-[0.88rem] font-normal leading-[1.55] text-[#111827]/85">
-                  Aspiring mechanical engineer with a strong interest in robotics. Skilled in mechanical design, CAD (SolidWorks), and ISO-compliant technical drawings with GD&T. Hands-on experience in building prototypes in workshop environments. Proficient in MATLAB and Simulink, with foundational knowledge of Python, ROS 2, and Git. Former track athlete who has learned that resilience, consistent practice, and strong teamwork lead to meaningful results.
+                  Aspiring mechanical engineer with a strong interest in robotics. Skilled in mechanical design, CAD (SolidWorks), and ISO-compliant technical drawings with GD&T. Hands-on experience in building prototypes in workshop environments. Proficient in MATLAB and Simulink, with additional experience in Python, ROS 2, and Git. Former track athlete who has learned that resilience, consistent practice, and strong teamwork lead to meaningful results.
                 </p>
               </div>
 
               <div className="mt-auto pt-6">
                 <a
-                  href="/CV_LJ_26.pdf"
+                  href="/CV_LJ_26.2.pdf"
                   target="_blank"
                   rel="noreferrer"
                   className="block rounded-full border border-white/20 bg-white/12 px-5 py-3 text-center text-[0.8rem] font-semibold uppercase tracking-[0.07em] text-[#111827]/85 backdrop-blur-xl transition-all duration-300 hover:scale-[1.03] hover:bg-white/25 hover:shadow-lg"
